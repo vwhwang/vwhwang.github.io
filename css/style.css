@@ -1,0 +1,87 @@
+
+body {
+  margin: 0;
+  background-color: #f6f6f6;
+  font-family: 'Lato', sans-serif;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-container {
+  padding-bottom: 4rem;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+
+.nav-item-container {
+  background-color : #dadffd; ;
+  margin:0;
+  padding:0;
+  list-style-type: none;
+  overflow:hidden;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+.nav-item-container > li > a {
+  display:inline-block;
+  width: 70px;
+  height:50px;
+  text-align:center;
+  text-decoration: none;
+  line-height: 50px;
+  color:black;
+
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+
+}
+
+
+.nav-item-container li a:hover {
+  background-color :#7cfefc;
+  color:black;
+}
+
+
+footer {
+  background-color: #ac79b5;
+  color:black;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+}
+
+footer h4 {
+  font-size: 18px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #B3788D; color:#fec8c1;color:#ff6f69 }
+.My-Color-Theme-2-hex { color: #FFDEEA; }
+.My-Color-Theme-3-hex { color: #FFC5DA; }
+.My-Color-Theme-4-hex { color: #66B36C; }
+.My-Color-Theme-5-hex { color: #C4FFC9; }
+.color_edit {color:#ac79b5,#7cfefc,#01bb89,#dadffd}

@@ -1,0 +1,51 @@
+.title {
+  color:black;
+  margin: 25px;
+  text-align: center;
+}
+
+.blogs {
+  display: flex;
+  padding: 20px;
+  margin:10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.blogs a {
+  color:blue;
+}
+
+
+.blogs > section {
+  padding: 10px;
+  margin: 5px;
+  display: block;
+  width: 300px;
+  height:300px;
+  /* border:  #FFDEEA solid 10px; */
+  text-align: center;
+  background-color: #01bb8982 ;
+}
+
+.blogs > section p {
+  text-align: left;
+  padding:5px;
+}
+
+
+.blog-post  {
+  margin:10% 20%;
+  padding:10px;
+  border: solid  #01bb8982  5px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.blog-post p {
+  margin: 10px;
+  padding:10px;
+  font-size: 22px;
+}
