@@ -18,6 +18,11 @@
   color:blue;
 }
 
+.blogs img {
+  width: 330px;
+  height: 330px;
+}
+
 
 .blogs > section {
   padding: 10px;
